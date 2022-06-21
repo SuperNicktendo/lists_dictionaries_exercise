@@ -28,5 +28,6 @@ united_kingdom[1]["capital"] = "Cardiff"
 for all_uk in united_kingdom:
   print(all_uk["name"])
 # 4. Use a loop to find the total population of the UK.
-
+for total_population in united_kingdom:
+  
   

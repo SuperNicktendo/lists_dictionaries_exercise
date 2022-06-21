@@ -54,7 +54,7 @@ users = {
   },
   "Graham": {
     "twitter": "GrayGray",
-    "lottery_numebrs": [7, 41, 22, 57, 12, 9],
+    "lottery_numbers": [7, 41, 22, 57, 12, 9],
     "home_town": "Leven",
     "pets": [
       {
@@ -74,7 +74,8 @@ print(users["Erik"]["lottery_numbers"])
 # 4. Get the species of Avril's pet Monty
 print(users["Avril"]["pets"][0]["species"])
 # 5. Get the smallest of Erik's lottery numbers
-
+users["Erik"]["lottery_numbers"].sort()
+print(users["Erik"]["lottery_numbers"][0])
 # 6. Return an list of Avril's lottery numbers that are even
 for even_num in users["Avril"]["lottery_numbers"]:
   if even_num % 2 == 0:
