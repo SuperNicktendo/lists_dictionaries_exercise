@@ -51,6 +51,17 @@ users = {
         "species": "snake"
       }
     ]
+  },
+  "Graham": {
+    "twitter": "GrayGray",
+    "lottery_numebrs": [7, 41, 22, 57, 12, 9],
+    "home_town": "Leven",
+    "pets": [
+      {
+        "name": "Ollie",
+        "species": "Dog"
+      }
+    ]
   }
 }
 
@@ -81,4 +92,4 @@ users["Erik"]["pets"].append(
 )
 # 10. Add another person to the users dictionary
 
-# print(users)
+print(users)
